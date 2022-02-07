@@ -2,6 +2,7 @@
 
 Put all your DGraph and Firebase info in `.env` like so:
 
+```
 NEXT_PUBLIC_FIREBASE_APIKEY=
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=
@@ -10,6 +11,7 @@ NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
 NEXT_PUBLIC_FIREBASE_APP_ID=
 NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
 NEXT_PUBLIC_DGRAPH_ENDPOINT=
+```
 
 Uncomment the lines in `pages/_app.tsx` and `pages/index.tsx` to switch between Apollo and URQL.
 
