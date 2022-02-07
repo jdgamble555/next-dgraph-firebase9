@@ -1,3 +1,29 @@
+## Setup
+
+Put all your DGraph and Firebase info in `.env` like so:
+
+NEXT_PUBLIC_FIREBASE_APIKEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
+NEXT_PUBLIC_DGRAPH_ENDPOINT=
+
+Uncomment the lines in `pages/_app.tsx` and `pages/index.tsx` to switch between Apollo and URQL.
+
+Websockets work out of the box, so you need to use the relevant functions.
+
+Put your own queries with your dgrpah endpoint after you login, and you will see it in the console.
+
+Not meant for any real app, just to show you how to setup.
+
+J
+
+_______
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
